@@ -5,9 +5,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="https://cdn.sallysbakingaddiction.com/wp-content/uploads/2018/12/banana-muffins-recipe-2.jpg" className="App-logo" alt="Hope Backery" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          The Best Maffin in Town
+        
         </p>
         <a
           className="App-link"
@@ -15,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Menue
         </a>
       </header>
     </div>
