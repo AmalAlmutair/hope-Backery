@@ -3,8 +3,11 @@
 }
 
 .App-logo {
-  height: 400px;
+  height: 250px;
   pointer-events: none;
+  box-shadow: 10px;
+  border-radius: 30px;
+  background-color: gray;
 }
 
 /* @media (prefers-reduced-motion: no-preference) {
@@ -13,8 +16,31 @@
   } */
 /* } */
 
+.title {
+  font-style: italic;
+  /* background-color: gray; */
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: 30px;
+  color: black;
+}
+
+.discription {
+  color: rgb(54, 3, 3);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.product {
+  color: rgb(54, 3, 3);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
 .App-header {
-  background-color: #282c34;
+  margin: 40px;
+  background-color: #eccae2;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,10 +48,24 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  border-radius: 15px;
+}
+
+.product {
+  margin: 40px;
+  background-color: #eccae2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border-radius: 15px;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #192427;
 }
 
 @keyframes App-logo-spin {
