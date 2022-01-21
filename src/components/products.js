@@ -1,6 +1,6 @@
 let products = [
   {
-    name: "whit Maffine",
+    name: "Whit Maffine",
     price: "2 KD",
     image:
       "https://verygoodrecipes.com/images/blogs/food-lust-people-love/cane-syrup-banana-muffins-muffinmonday-533.320x240.jpg",

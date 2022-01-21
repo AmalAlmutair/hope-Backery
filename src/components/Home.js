@@ -1,5 +1,6 @@
 import React from "react";
 import Product from "./Product";
+import ProductList from "./ProductList";
 import products from "./products";
 
 const Home = () => {
@@ -12,10 +13,13 @@ const Home = () => {
         alt="Hope Backery"
       ></img>
       <p className="discription"> Best Maffine in Town</p>
+
       {/* list of Products */}
-      <div className="product"></div>
-      <Product product={products[0]}></Product>
+      {/* <div className="product">
+        <Product product={products[0]}></Product>
       <Product product={products[1]}></Product>
+      </div> */}
+      <ProductList />
     </div>
   );
 };
